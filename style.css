@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px;
+}
+
+.card{
+    background-color: rgb(51, 173, 173);
+    width:auto;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+
+.search{
+    background-color: rgb(227, 228, 225);
+    width: auto;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+
+footer{
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .app {
+        width: 100%;
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(243, 243, 238);
+    }
+}
