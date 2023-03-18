@@ -35,7 +35,10 @@
 }
 
 footer{
+    margin-top: 280px;
+    font-size: 20px;
     text-align: center;
+    
 }
 @media screen and (max-width: 1000px) {
     .app {
